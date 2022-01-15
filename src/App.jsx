@@ -10,11 +10,21 @@ import Family1 from "./components/basic/family1";
 import MemberFamily from "./components/basic/memberFamily";
 import StudentList from "./components/loop/studentList";
 import ProductList from "./components/loop/productList";
+import EvenOrOdd from "./components/conditional/evenOrOdd";
+import WelcomeUser from "./components/conditional/welcomeUser";
 
 export default () =>
     <div id="app">
         <h1>Fundamentos React </h1>
         <div id="content">
+
+            <Card title="#08 Conditional Render" color="#CB627D">
+                <WelcomeUser user='Lucas'></WelcomeUser>
+            </Card>
+
+            <Card title="#08 Conditional Render" color="#F0D6D1">
+                <EvenOrOdd number={20}></EvenOrOdd>
+            </Card>
 
             <Card title="#07 challenge components with children" color="#B2E5C9">
                 <ProductList></ProductList>

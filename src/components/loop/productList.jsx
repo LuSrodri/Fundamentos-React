@@ -24,9 +24,11 @@ export default props => {
     return (
         <table>
             <thead>
-                <th>ID</th>
-                <th>Produto</th>
-                <th>Preço</th>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
             </thead>
             <tbody>
                 {productsLi}
