@@ -8,11 +8,21 @@ import Card from './components/layouts/card'
 import Family from "./components/basic/family";
 import Family1 from "./components/basic/family1";
 import MemberFamily from "./components/basic/memberFamily";
+import StudentList from "./components/loop/studentList";
+import ProductList from "./components/loop/productList";
 
 export default () =>
     <div id="app">
         <h1>Fundamentos React </h1>
         <div id="content">
+
+            <Card title="#07 challenge components with children" color="#B2E5C9">
+                <ProductList></ProductList>
+            </Card>
+
+            <Card title="#06 components with children" color="#7445C1">
+                <StudentList></StudentList>
+            </Card>
 
             <Card title="#05.1 components with children" color="#FF7F50">
                 <Family1 lastName="Santos">
@@ -22,11 +32,11 @@ export default () =>
                 </Family1>
             </Card>
 
-            <Card title="#05 components with children" color="#FF7F50">
+            <Card title="#05 components with children" color="#52C5BB">
                 <Family lastName="Santos"></Family>
             </Card>
 
-            <Card title="#04 Números Aleatórios" color="#FF7F50">
+            <Card title="#04 challenge Random Number" color="#FF7F50">
                 <RandomNumber min={1} max={100}></RandomNumber>
             </Card>
 
@@ -34,12 +44,12 @@ export default () =>
                 <Fragments></Fragments>
             </Card>
 
-            <Card title="#02 Com parâmetros" color="#CCCCFF">
+            <Card title="#02 With params" color="#CCCCFF">
                 <WithParementers titulo="Segundo componentes"
                     subtitulo="Muito bão"></WithParementers>
             </Card>
 
-            <Card title="#01 Primeiro">
+            <Card title="#01 First">
                 <First></First>
             </Card>
         </div>
