@@ -13,11 +13,16 @@ import ProductList from "./components/loop/productList";
 import EvenOrOdd from "./components/conditional/evenOrOdd";
 import WelcomeUser from "./components/conditional/welcomeUser";
 import DirectParent from "./components/communication/directParent";
+import IndirectParent from "./components/communication/indirectParent";
 
 export default () =>
     <div id="app">
         <h1>Fundamentos React </h1>
         <div id="content">
+
+            <Card title="#10 Indirect Communication" color="#D37C7A">
+                <IndirectParent ></IndirectParent>
+            </Card>
 
             <Card title="#09 Direct Communication" color="#14293B">
                 <DirectParent ></DirectParent>
