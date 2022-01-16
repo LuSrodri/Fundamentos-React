@@ -14,11 +14,16 @@ import EvenOrOdd from "./components/conditional/evenOrOdd";
 import WelcomeUser from "./components/conditional/welcomeUser";
 import DirectParent from "./components/communication/directParent";
 import IndirectParent from "./components/communication/indirectParent";
+import Input from "./components/form/input";
 
 export default () =>
     <div id="app">
         <h1>Fundamentos React </h1>
         <div id="content">
+
+            <Card title="#11 Controlled Component Form" color="#301017">
+                <Input ></Input>
+            </Card>
 
             <Card title="#10 Indirect Communication" color="#D37C7A">
                 <IndirectParent ></IndirectParent>
