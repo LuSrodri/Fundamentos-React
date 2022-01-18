@@ -15,13 +15,23 @@ import WelcomeUser from "./components/conditional/welcomeUser";
 import DirectParent from "./components/communication/directParent";
 import IndirectParent from "./components/communication/indirectParent";
 import Input from "./components/form/input";
+import Count from "./components/count/count";
+import Lottery from "./components/lottery/lottery";
 
 export default () =>
     <div id="app">
         <h1>Fundamentos React </h1>
         <div id="content">
 
-            <Card title="#11 Controlled Component Form" color="#301017">
+            <Card title="#13 Lottery - Challenge" color="#AFDBE4">
+                <Lottery></Lottery>
+            </Card>
+
+            <Card title="#12 Count - Class Component" color="#A7E2B2">
+                <Count startNumber={10} startJump={-2}></Count>
+            </Card>
+
+            <Card title="#11 Controlled Component - Form" color="#301017">
                 <Input ></Input>
             </Card>
 
@@ -34,14 +44,14 @@ export default () =>
             </Card>
 
             <Card title="#08 Conditional Render" color="#CB627D">
-                <WelcomeUser user='Lucas'></WelcomeUser>
+                <WelcomeUser user='People'></WelcomeUser>
             </Card>
 
             <Card title="#08 Conditional Render" color="#F0D6D1">
                 <EvenOrOdd number={20}></EvenOrOdd>
             </Card>
 
-            <Card title="#07 challenge components with children" color="#B2E5C9">
+            <Card title="#07 challenge - components with children" color="#B2E5C9">
                 <ProductList></ProductList>
             </Card>
 
@@ -61,7 +71,7 @@ export default () =>
                 <Family lastName="Santos"></Family>
             </Card>
 
-            <Card title="#04 challenge Random Number" color="#FF7F50">
+            <Card title="#04 challenge - Random Number" color="#FF7F50">
                 <RandomNumber min={1} max={100}></RandomNumber>
             </Card>
 
@@ -71,7 +81,7 @@ export default () =>
 
             <Card title="#02 With params" color="#CCCCFF">
                 <WithParementers titulo="Segundo componentes"
-                    subtitulo="Muito bão"></WithParementers>
+                    subtitulo="Muito Bom"></WithParementers>
             </Card>
 
             <Card title="#01 First">

@@ -5,7 +5,7 @@ import './input.css'
 
 export default props =>{
 
-    let [valueAux, setValueAux] = useState('Initial')
+    let [valueAux, setValueAux] = useState('')
 
     let whenChanged = e =>{
         setValueAux(e.target.value)

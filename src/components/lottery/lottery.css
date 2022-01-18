@@ -1,0 +1,9 @@
+.lottery label
+{
+    font-size: 1.2rem;
+}
+
+.lottery input{
+    font-size: 1.2rem;
+    width: 35%;
+}
