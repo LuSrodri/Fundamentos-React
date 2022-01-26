@@ -19,3 +19,5 @@ Fundamentus React - https://github.com/LuSrodri/Fundamentos-React
 React Router - https://github.com/LuSrodri/react-router-learning
 
 React Hooks - https://github.com/LuSrodri/React-hooks-learning
+
+React Redux - https://github.com/LuSrodri/react-redux-learning
